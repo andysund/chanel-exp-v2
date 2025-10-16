@@ -9,6 +9,7 @@ import bagOne from '../assets/photos/bag-one.webp';
 import frontFull from '../assets/photos/front-full.jpg';
 import lowerTwo from '../assets/photos/lower-two.webp';
 import frontFour from '../assets/photos/front-four.webp';
+import logoClothing from '../assets/photos/chanelSVG.svg'
 
 function Mainframe() {
   return (
@@ -16,7 +17,7 @@ function Mainframe() {
       className="mainframe"
       style={{ backgroundImage: `url(${backgroundMain})` }}
     >
-      <div className="mainframe-container">
+      <div className="mainframe-container"  style={{ backgroundImage: `url(${logoClothing})` }}>
         <div
           className="mainframe-one"
           style={{ backgroundImage: `url(${frontFull})` }}
