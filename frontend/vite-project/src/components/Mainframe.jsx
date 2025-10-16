@@ -10,6 +10,7 @@ import frontFull from '../assets/photos/front-full.jpg';
 import lowerTwo from '../assets/photos/lower-two.webp';
 import frontFour from '../assets/photos/front-four.webp';
 import logoClothing from '../assets/photos/chanelSVG.svg'
+import fshVideo from '../assets/photos/FSH.webm';
 
 function Mainframe() {
   return (
@@ -21,7 +22,10 @@ function Mainframe() {
         <div
           className="mainframe-one"
           style={{ backgroundImage: `url(${frontFull})` }}
-        ></div>
+        >
+           <video className="mainframe-video" src={fshVideo} muted loop playsInline />
+          
+        </div>
         <div
           className="mainframe-two"
           style={{ backgroundImage: `url(${lowerOne})` }}

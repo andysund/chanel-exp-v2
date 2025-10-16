@@ -42,7 +42,21 @@
 
 .mainframe-one {
   z-index: 1;
+  overflow: hidden;
+  z-index: 1;
  
+}
+.mainframe-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* conserve le ratio et couvre toute la div */
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none; /* permet de ne pas bloquer le hover */
 }
 
 .mainframe-two {
@@ -52,6 +66,17 @@
 
 .mainframe-three {
   z-index: 2;
+}
+
+
+/* Lors du hover, on affiche la vidéo */
+.mainframe-one:hover .mainframe-video {
+  opacity: 1;
+}
+
+/* Optionnel : effet fondu de l’image sous la vidéo */
+.mainframe-one:hover {
+  filter: brightness(0.8);
 }
 
 /* Hover effects 
