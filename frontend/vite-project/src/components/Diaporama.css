@@ -1,0 +1,19 @@
+.diaporama {
+  display: flex;      /* largeur totale */
+margin-top: 150px;            /* centrer sur la page */
+overflow: hidden;
+}
+
+.diaporama-slide {
+  display: flex;
+  flex: 1;                /* 4 colonnes égales */
+  aspect-ratio: 1153 / 1704; /* respecte le ratio original */
+  overflow: hidden;
+}
+
+.diaporama-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* couvre sans déformer */
+  display: block;
+}
