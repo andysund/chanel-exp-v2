@@ -11,24 +11,29 @@
 
 .mainframe-container {
   position: relative;
-  width: 600px;
-  height: 952px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height:700px;
   background-color: blue;
   margin-right: 112px;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-evenly;
 }
 
 .mainframe-one,
 .mainframe-two,
 .mainframe-three {
-  position: absolute;
-  width: 600px;
-  height: 952px;
+  width:  200px;
+  height: 300px;
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.8s ease, box-shadow 0.3s ease;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  bottom: 35px;
 }
 
 .mainframe-one {
@@ -37,21 +42,22 @@
 }
 
 .mainframe-two {
-  z-index: 2;
+  z-index: 3;
   
 }
 
 .mainframe-three {
-  z-index: 3;
+  z-index: 2;
 }
 
-/* Hover effects */
+/* Hover effects 
 .mainframe-container:hover .mainframe-one {
-  transform: rotate(-5deg) translate(-25px, -25px);
+  transform: rotate(-15deg) translate(-25px, -25px);
+  
 }
 .mainframe-container:hover .mainframe-two {
-  transform: rotate(0deg) translate(0, -10px);
+  transform: rotate(15deg) translate(0, -10px);
 }
 .mainframe-container:hover .mainframe-three {
-  transform: rotate(5deg) translate(25px, 25px);
-}
+  transform: rotate(-15deg) translate(25px, 25px);
+}*/

@@ -5,6 +5,10 @@ import backgroundMain from '../assets/photos/background-main.png';
 import frontOne from '../assets/photos/front-one.webp';
 import lowerOne from '../assets/photos/lower-one.webp';
 import sideOne from '../assets/photos/side-one.webp';
+import bagOne from '../assets/photos/bag-one.webp';
+import frontFull from '../assets/photos/front-full.jpg';
+import lowerTwo from '../assets/photos/lower-two.webp';
+import frontFour from '../assets/photos/front-four.webp';
 
 function Mainframe() {
   return (
@@ -15,7 +19,7 @@ function Mainframe() {
       <div className="mainframe-container">
         <div
           className="mainframe-one"
-          style={{ backgroundImage: `url(${frontOne})` }}
+          style={{ backgroundImage: `url(${frontFull})` }}
         ></div>
         <div
           className="mainframe-two"
@@ -24,6 +28,19 @@ function Mainframe() {
         <div
           className="mainframe-three"
           style={{ backgroundImage: `url(${sideOne})` }}
+          
+        ></div>
+        <div
+          className="mainframe-one"
+          style={{ backgroundImage: `url(${bagOne})` }}
+        ></div>
+        <div
+          className="mainframe-one"
+          style={{ backgroundImage: `url(${frontFour})` }}
+        ></div>
+        <div
+          className="mainframe-one"
+          style={{ backgroundImage: `url(${lowerTwo})` }}
         ></div>
       </div>
     </div>
