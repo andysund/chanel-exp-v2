@@ -1,6 +1,7 @@
 import './App.css'
 import HeaderChanel from './components/HeaderChanel.jsx'
 import Diaporama from './components/Diaporama.jsx'
+import Mainframe from './components/Mainframe.jsx'
 function App() {
  
 
@@ -9,6 +10,7 @@ function App() {
       <div className="main-container">
       <HeaderChanel />
       <Diaporama />
+      <Mainframe />
       </div>
     </>
   )
