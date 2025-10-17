@@ -17,3 +17,29 @@ overflow: hidden;
   object-fit: cover;       /* couvre sans déformer */
   display: block;
 }
+.diaporama-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.diaporama-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-top: 68px;
+}
+.CHANEL-text {
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.FASHION-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
