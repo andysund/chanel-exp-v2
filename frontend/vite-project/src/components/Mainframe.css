@@ -16,7 +16,6 @@
   flex-wrap: wrap;
   width: 800px;
   height:700px;
-  background-color: tan;
   margin-right: 170px;
   flex-direction: row;
   padding: 20px;
@@ -29,6 +28,7 @@
 .mainframe-one,
 .mainframe-two,
 .mainframe-three {
+  border :2px solid tan ;
   width:  200px;
   height: 300px;
   border-radius: 12px;
