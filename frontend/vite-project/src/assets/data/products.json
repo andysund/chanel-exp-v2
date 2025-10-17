@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Trench White Oak",
+    "price": 700.00,
+    "currency": "EUR",
+    "image": "/assets/photos/trenchone.webp",
+    "category": "upperwear",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Purse Classic Gold",
+    "price": 1200.00,
+    "currency": "EUR",
+    "image": "/assets/photos/goldbag.webp",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Dress Cornflower Tan",
+    "price": 3500.00,
+    "currency": "EUR",
+    "image": "/assets/photos/cornflower.webp",
+    "category": "upperwear",
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Skirt Feather Stroke",
+    "price": 4800.00,
+    "currency": "EUR",
+    "image": "/assets/photos/featherstroke.webp",
+    "category": "dresses",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Skirt Wine Field",
+    "price": 1800.00,
+    "currency": "EUR",
+    "image": "/assets/photos/winefield.webp",
+    "category": "dresses",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Coat 'Mafalda' fall",
+    "price": 3250.00,
+    "currency": "EUR",
+    "image": "/assets/photos/wolfhug.webp",
+    "category": "accessories",
+    "inStock": false
+  },
+  {
+    "id": 7,
+    "name": "Skirt 'Petunia' Spring",
+    "price": 80.00,
+    "currency": "EUR",
+    "image": "/assets/photos/springpetunia.webp",
+    "category": "dresses",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Dresses 'Sahara' Summer",
+    "price": 6200.00,
+    "currency": "EUR",
+    "image": "/assets/photos/sanddress.webp",
+    "category": "dresses",
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Skirt 'Scottish' Balrina",
+    "price": 450.00,
+    "currency": "EUR",
+    "image": "/assets/photos/scottskirt.webp",
+    "category": "accessories",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Handbag 'Sherwood' leather",
+    "price": 6950.00,
+    "currency": "EUR",
+    "image": "/assets/photos/sherwood.webp",
+    "category": "outerwear",
+    "inStock": false
+  }
+ 
+
+]

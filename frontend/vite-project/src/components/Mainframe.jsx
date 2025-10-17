@@ -43,8 +43,7 @@ function Mainframe() {
         <div
           className="mainframe-one"
           style={{ backgroundImage: `url(${frontFull})` }}
-        >
-           <video className="mainframe-video" src={fshVideo} muted loop playsInline />
+        >&
           
         </div>
         <div

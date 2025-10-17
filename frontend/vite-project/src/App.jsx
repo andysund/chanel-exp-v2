@@ -4,7 +4,8 @@ import Diaporama from './components/Diaporama.jsx'
 import Mainframe from './components/Mainframe.jsx'
 import Nextone from './components/Nexton.jsx'
 import Runway from './components/Runway.jsx'
-import Fulldisplay from './components/Fulldisplay.jsx'
+import MarketPlace from './components/MarketPlace.jsx'
+
 function App() {
  
 
@@ -15,7 +16,7 @@ function App() {
       <Diaporama />
       <Runway />
       <Mainframe />
-      <Fulldisplay />
+      <MarketPlace />
       <Nextone />
      
       </div>

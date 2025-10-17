@@ -1,0 +1,28 @@
+.marketplace {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 956px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.product-card {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+}
+.product-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 10px;
+    align-items: flex-start;
+}
+.product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
