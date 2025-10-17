@@ -1,0 +1,11 @@
+.nextone {
+ position: relative;
+  width: 100%;
+  height: 956px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
