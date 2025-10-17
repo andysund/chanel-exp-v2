@@ -6,12 +6,19 @@
     background-color: aqua;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+}
+.product {
+    /* conteneur de chaque produit */
+    margin: 10px;
 }
 .product-card {
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 400px;
     height: 200px;
+    background-color: blue;
 }
 .product-info {
     display: flex;
@@ -23,6 +30,13 @@
 .product-image {
     width: 150px;
     height: 150px;
-    object-fit: cover;
     border-radius: 12px;
+    overflow: hidden; /* masque l'image dans le rayon */
 }
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* container .product déjà défini plus haut avec margin */
