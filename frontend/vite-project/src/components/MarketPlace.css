@@ -1,27 +1,34 @@
 .marketplace {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 956px;
-    background-color: aqua;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* max 3 par ligne */
     gap: 15px;
-   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain; /
+    width: 100%;
+    height: 1267px;
+    background-color: aqua;
+    justify-items: center; /* centre les cartes dans chaque colonne */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding: 95px;
 }
 .product {
-    /* conteneur de chaque produit */
-    margin: 10px;
+    /* conteneur de chaque produit (le spacing est géré par gap du grid) */
+    margin: 0;
+    width: 100%;
 }
 .product-card {
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 100%;
+    max-width: 400px; /* limite visuelle tout en restant fluide */
     height: 200px;
     background-color: blue;
+    background: border-box;
+    border: 2px solid tan;
+    border-radius: 25px;
+    overflow: hidden; 
+  
 }
 .product-info {
     display: flex;
@@ -29,18 +36,30 @@
     margin-left: 15px;
     gap: 10px;
     align-items: flex-start;
+    padding: 5px;
 }
 .product-image {
-    width: 400px;
+    width: 235px;
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
     overflow: hidden; /* masque l'image dans le rayon */
 }
 .product-img {
-    width: 400px;
-    height: 200px;
+        width: 400px;
+        height: 200px;
     object-fit: cover;
     display: block;
+}
+/* Responsive: 2 colonnes puis 1 colonne */
+@media (max-width: 1200px) {
+    .marketplace {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (max-width: 768px) {
+    .marketplace {
+        grid-template-columns: 1fr;
+    }
 }
 /* container .product déjà défini plus haut avec margin */
