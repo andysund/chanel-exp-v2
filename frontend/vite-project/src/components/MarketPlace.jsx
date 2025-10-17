@@ -14,6 +14,7 @@ import spingpetunia from '../assets/photos/spingpetunia.webp'; // JSON: springpe
 import sanddress from '../assets/photos/sanddress.webp';
 import scottskirt from '../assets/photos/scottskirt.webp';
 import sherwood from '../assets/photos/sherwood.webp';
+import marketFont from '../assets/photos/mpbackground.webp';
 
 // (Optionnel) placeholder si une clé manque (mettre le fichier dans /public)
 const PLACEHOLDER = '/placeholder.png';
@@ -40,7 +41,7 @@ function resolveImage(path) {
 
 function MarketPlace() {
   return (
-    <div className="marketplace">
+    <div className="marketplace" style={{backgroundImage: `url(${marketFont})`}}>
       {Products.map(product => (
 
         <div key={product.id} className="product">
