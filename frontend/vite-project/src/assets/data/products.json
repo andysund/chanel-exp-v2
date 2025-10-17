@@ -49,7 +49,7 @@
     "name": "Coat 'Mafalda' fall",
     "price": 3250.00,
     "currency": "EUR",
-    "image": "/assets/photos/wolfhug.webp",
+      "image": "/assets/photos/wollhug.webp",
     "category": "accessories",
     "inStock": false
   },
@@ -58,7 +58,7 @@
     "name": "Skirt 'Petunia' Spring",
     "price": 80.00,
     "currency": "EUR",
-    "image": "/assets/photos/springpetunia.webp",
+      "image": "/assets/photos/spingpetunia.webp",
     "category": "dresses",
     "inStock": true
   },
