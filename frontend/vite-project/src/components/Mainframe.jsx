@@ -1,4 +1,5 @@
 import './Mainframe.css';
+import {useState} from 'react';
 
 // 🔹 Imports des images
 import backgroundMain from '../assets/photos/background-main.png';
@@ -13,6 +14,26 @@ import logoClothing from '../assets/photos/chanelSVG.svg'
 import fshVideo from '../assets/photos/FSH.webm';
 
 function Mainframe() {
+
+  let photoArrays = [frontOne, lowerOne, sideOne, bagOne, frontFull, lowerTwo, frontFour];
+
+  function getRandomPhoto() {
+    const randomIndex = Math.floor(Math.random() * photoArrays.length);
+    return photoArrays[randomIndex];
+  }
+  const [currentPhoto, setCurrentPhoto] = useState(getRandomPhoto());
+  
+  function handleChangePhoto() {
+    let newPhoto;
+    // S'assurer d'avoir une photo différente
+    do {
+      newPhoto = getRandomPhoto();
+    } while (newPhoto === currentPhoto && photoArrays.length > 1);
+    
+    setCurrentPhoto(newPhoto);
+  }
+
+
   return (
     <div
       className="mainframe"
@@ -28,7 +49,8 @@ function Mainframe() {
         </div>
         <div
           className="mainframe-two"
-          style={{ backgroundImage: `url(${lowerOne})` }}
+          style={{ backgroundImage: `url(${currentPhoto})` }}
+          onClick={handleChangePhoto}
         ></div>
         <div
           className="mainframe-three"
