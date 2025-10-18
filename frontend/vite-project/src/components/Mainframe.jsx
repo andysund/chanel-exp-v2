@@ -43,7 +43,7 @@ function Mainframe() {
         <div
           className="mainframe-one"
           style={{ backgroundImage: `url(${frontFull})` }}
-        >&
+        >
           
         </div>
         <div

@@ -27,8 +27,8 @@ const imageMap = {
   '/assets/photos/featherstroke.webp': featherstroke,
   '/assets/photos/winefield.webp': winefield,
   // Corrections de nom (on mappe le chemin du JSON vers le bon import)
-  '/assets/photos/wolfhug.webp': wollhug,
-  '/assets/photos/springpetunia.webp': spingpetunia,
+  '/assets/photos/wollhug.webp': wollhug,
+  '/assets/photos/spingpetunia.webp': spingpetunia,
   '/assets/photos/sanddress.webp': sanddress,
   '/assets/photos/scottskirt.webp': scottskirt,
   '/assets/photos/sherwood.webp': sherwood,
@@ -41,10 +41,12 @@ function resolveImage(path) {
 
 function MarketPlace() {
   return (
-    <div className="marketplace" style={{backgroundImage: `url(${marketFont})`}}>
-      {Products.map(product => (
+    <div className="marketplace" style={{backgroundImage: `url(${marketFont})`}}> 
+     
 
-        <div key={product.id} className="product">
+        <div className="products-grid"> 
+           {Products.map(product => (
+             <div key={product.id} className="product">
 
                 <div className="product-card">
                              <div className="product-image"> 
@@ -56,14 +58,16 @@ function MarketPlace() {
                                 <button>Add to Cart</button>
                              </div>
                </div>
-
+         </div>
+           ))}
 
 
         
 
         </div>
 
-      ))}
+      
+
     </div>
   )
 }

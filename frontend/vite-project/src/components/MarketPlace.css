@@ -1,12 +1,8 @@
 .marketplace {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr)); /* max 3 par ligne */
-    column-gap: 10px; /* gap horizontal réduit */
-    row-gap: 12px;    /* gap vertical */
-    grid-auto-rows: 200px; /* hauteur d'une rangée = hauteur de carte */
-    max-height: calc(3 * 200px + 2 * 12px); /* 3 lignes visibles, 2 gaps */
-    overflow-y: auto; /* scroll pour les lignes suivantes */
+    display:flex;
+    flex-direction: row;
     width: 100%;
+    max-height: 1100px;
     background-color: aqua;
     justify-items: center; /* centre les cartes dans chaque colonne */
     background-repeat: no-repeat;
@@ -17,7 +13,16 @@
 .product {
     /* conteneur de chaque produit (le spacing est géré par gap du grid) */
     margin: 0;
-    width: 100%;
+    
+}
+.products-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 25px;
+    justify-content: space-around;
+    overflow: hidden;
 }
 .product-card {
     position: relative;
