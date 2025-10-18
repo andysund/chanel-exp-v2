@@ -6,7 +6,7 @@ import Nextone from './components/Nexton.jsx'
 import Runway from './components/Runway.jsx'
 import MarketPlace from './components/MarketPlace.jsx'
 import Cart from './components/Cart.jsx'
-
+import EndChanel from './components/EndChanel.jsx'
 function App() {
  
 
@@ -20,6 +20,7 @@ function App() {
       <MarketPlace />
       <Nextone />
       <Cart />
+      <EndChanel />
      
       </div>
     </>

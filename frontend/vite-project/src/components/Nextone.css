@@ -8,4 +8,6 @@
   justify-content: flex-end;
   align-items: center;
   gap: 15px;
+  border-left: 2px solid tan;
+  border-right: 2px solid tan;
 }

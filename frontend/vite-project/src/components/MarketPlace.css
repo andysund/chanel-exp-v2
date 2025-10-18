@@ -9,6 +9,8 @@
     background-position: center;
     background-size: cover; 
     padding: 95px;
+    border-left: 2px solid tan;
+    border-right: 2px solid tan;
 }
 .product {
     /* conteneur de chaque produit (le spacing est géré par gap du grid) */

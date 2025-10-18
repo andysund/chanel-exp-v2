@@ -1,0 +1,31 @@
+.end-chanel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:2496px;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gabrielle {
+    width: 800px;
+    height: 1124px;
+    border-radius: 25px;
+    border: 2px solid tan;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.gabrielle-chanel-logo {
+    width: 102px;
+    height: 102px;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    border: 1px solid tan;
+    border-radius: 100px;
+}
