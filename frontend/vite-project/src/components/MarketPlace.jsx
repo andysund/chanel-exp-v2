@@ -55,7 +55,7 @@ function MarketPlace() {
                              <div className="product-info">
                              <h3>{product.name}</h3>
                              <p>{product.price} {product.currency}</p>
-                                <button>Add to Cart</button>
+                                <button className="add-to-cart">Add to Cart</button>
                              </div>
                </div>
          </div>

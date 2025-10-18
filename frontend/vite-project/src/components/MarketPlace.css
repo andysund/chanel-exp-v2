@@ -62,6 +62,14 @@
     object-fit: cover;
     display: block;
 }
+.add-to-cart {
+    border: 1px solid tan;
+    border-radius: 25px;
+    color:white;
+    background-color: black;
+    padding: 2px;
+    width: 90px;;
+}
 /* Responsive: 2 colonnes puis 1 colonne */
 @media (max-width: 1200px) {
     .marketplace {
