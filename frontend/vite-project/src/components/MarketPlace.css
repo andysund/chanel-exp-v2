@@ -23,6 +23,7 @@
     gap: 25px;
     justify-content: space-around;
     overflow: hidden;
+    overflow-y: auto;
 }
 .product-card {
     position: relative;
@@ -45,17 +46,19 @@
     gap: 10px;
     align-items: flex-start;
     padding: 5px;
+    flex-wrap: wrap;
+    width: 55%;
 }
 .product-image {
-    width: 235px;
+  
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
     overflow: hidden; /* masque l'image dans le rayon */
 }
 .product-img {
-        width: 400px;
-        height: 200px;
+    width: 235px;
+    height: 200px;
     object-fit: cover;
     display: block;
 }
