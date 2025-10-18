@@ -39,6 +39,10 @@ function Mainframe() {
       className="mainframe"
       style={{ backgroundImage: `url(${backgroundMain})` }}
     >
+      <div className="data-presentation">
+      <div className="mainframe-presentation">
+        <p>An imaginary conversation with Gabrielle Chanel and a return to her masculine-feminine style, as well as to her fundamental fabrics — tweed, jersey, and silk. Reworked, recut, and reinterpreted. CHANEL Spring-Summer 2026 Collection. Matthieu Blazy for CHANEL.</p>
+      </div>
       <div className="mainframe-container"  style={{ backgroundImage: `url(${logoClothing})` }}>
         <div
           className="mainframe-one"
@@ -68,6 +72,7 @@ function Mainframe() {
           className="mainframe-one"
           style={{ backgroundImage: `url(${lowerTwo})` }}
         ></div>
+      </div>
       </div>
     </div>
   );
