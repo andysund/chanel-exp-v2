@@ -5,6 +5,7 @@ import Mainframe from './components/Mainframe.jsx'
 import Nextone from './components/Nexton.jsx'
 import Runway from './components/Runway.jsx'
 import MarketPlace from './components/MarketPlace.jsx'
+import Cart from './components/Cart.jsx'
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
       <Mainframe />
       <MarketPlace />
       <Nextone />
+      <Cart />
      
       </div>
     </>
