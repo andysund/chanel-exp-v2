@@ -1,0 +1,29 @@
+[
+    {
+        "id": "model-001",
+        "name": "Modèle 1",
+        "pictures": [
+            "/photos/model-001/01.jpg",
+            "/photos/model-001/02.jpg",
+            "/photos/model-001/03.jpg"
+        ],
+        "price": 199.99
+    },
+    {
+        "id": "model-002",
+        "name": "Modèle 2",
+        "pictures": [
+            "/photos/model-002/01.jpg",
+            "/photos/model-002/02.jpg"
+        ],
+        "price": 249.0
+    },
+    {
+        "id": "model-003",
+        "name": "Modèle 3",
+        "pictures": [
+            "/photos/model-003/01.jpg"
+        ],
+        "price": 99.5
+    }
+]

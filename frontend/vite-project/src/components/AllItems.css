@@ -29,7 +29,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: 8px solid tan;
-    border-radius: 75px;;
+    border-radius: 75px;    
+    align-items: center;
+    justify-content: center;
 }
 .allitems-cards {
     display: flex;
@@ -38,6 +40,8 @@
     overflow-y: auto;
     width: 100%;
     height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .allitems-info {
     display: flex;
@@ -45,4 +49,21 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.cards-video {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 4px solid tan;
+}
+.cards-purchase {
+    display: flex;
+    width: 1104px;
+    height: 500px;
+    border-radius: 25px;
+    margin: 20px;
+    border: 4px solid tan;
+    object-fit: cover;
 }

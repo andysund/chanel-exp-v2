@@ -8,8 +8,16 @@ function AllItems() {
         <div className="allitems-display">
 
             <div className="allitems-cards">
-                <div className="cards">
+                <div className="cards-video">
                     
+                </div>
+                <div className="cards-purchase">
+                    
+                    <div className="cards-purchase-images"></div>
+                    <div className="cards-purchase-info"></div>
+
+                    
+
                 </div>
             </div>
         
