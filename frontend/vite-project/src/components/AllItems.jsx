@@ -48,8 +48,12 @@ function AllItems() {
                     ))}
                   </div>
                   <div className="cards-purchase-info">
+                    <div className="modelNamePrice">
                     <span className="model-name">{m.name}</span>
                     <span className="model-price">{m.price} EUR</span>
+                    </div>
+                    <button className="add-to-cart">Add to Cart</button>
+                
                   </div>
                 </div>
               </div>

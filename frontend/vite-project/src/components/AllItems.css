@@ -28,7 +28,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 8px solid tan;
+    border: 5px solid tan;
     border-radius: 75px;    
     align-items: center;
     justify-content: center;
@@ -125,6 +125,12 @@
     gap:16px;
     margin-right: 23px;;
 }
+.modelNamePrice {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid tan ;
+
+}
 .model-name {
     white-space: nowrap;
     overflow: hidden;
@@ -132,4 +138,12 @@
 }
 .model-price {
     color: tan;
+}
+.add-to-cart {
+    border: 1px solid tan;
+    border-radius: 25px;
+    color:white;
+    background-color: black;
+    padding: 2px;
+    width: 90px;;
 }
