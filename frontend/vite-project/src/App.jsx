@@ -8,6 +8,7 @@ import MarketPlace from './components/MarketPlace.jsx'
 import Cart from './components/Cart.jsx'
 import EndChanel from './components/EndChanel.jsx'
 import AllItems from './components/AllItems.jsx'
+import Fulldisplay from './components/Fulldisplay.jsx'
 function App() {
  
 
@@ -19,7 +20,9 @@ function App() {
       <Runway />
       <Mainframe />
       <AllItems />
+      <Fulldisplay />
       <MarketPlace />
+      
       <Nextone />
       <Cart />
       <EndChanel />
