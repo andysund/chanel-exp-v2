@@ -83,12 +83,13 @@
 .cards-purchase {
     display: flex;
     width: 1104px;
-    height: 500px;
+    height: 468px;
     border-radius: 25px;
     margin: 20px;
     border: 4px solid tan;
     object-fit: cover;
     overflow: hidden;
+    margin-top: 40px;
 }
 .cards-purchase-images {
     flex: 1;
@@ -101,8 +102,9 @@
     overflow: hidden;
     display: flex;
     overflow-x: auto;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding-right: 0px;
+    align-items: center;
 }
 .cards-purchase-images.scroll {
     flex-direction: column;
@@ -113,6 +115,8 @@
     object-fit: cover;
     border-radius: 12px;
     border: 4px solid tan;
+    width: 250px;
+    height: 410px;
 }
 .cards-purchase-info {
     width: 260px;

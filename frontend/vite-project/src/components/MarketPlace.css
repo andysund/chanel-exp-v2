@@ -11,7 +11,7 @@
     padding: 95px;
     border-left: 2px solid tan;
     border-right: 2px solid tan;
-}
+  
 .product {
     /* conteneur de chaque produit (le spacing est géré par gap du grid) */
     margin: 0;
