@@ -7,6 +7,7 @@ import Runway from './components/Runway.jsx'
 import MarketPlace from './components/MarketPlace.jsx'
 import Cart from './components/Cart.jsx'
 import EndChanel from './components/EndChanel.jsx'
+import AllItems from './components/AllItems.jsx'
 function App() {
  
 
@@ -17,6 +18,7 @@ function App() {
       <Diaporama />
       <Runway />
       <Mainframe />
+      <AllItems />
       <MarketPlace />
       <Nextone />
       <Cart />
