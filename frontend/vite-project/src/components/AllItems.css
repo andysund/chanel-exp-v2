@@ -35,13 +35,27 @@
 }
 .allitems-cards {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    overflow-y: auto;
+    flex-direction: column;
+    gap: 20px;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 277px;
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 68px;
+
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 140px;
 }
 .allitems-info {
     display: flex;
@@ -57,6 +71,14 @@
     border-radius: 50%;
     margin: 20px;
     border: 4px solid tan;
+    overflow: hidden;
+}
+.cards-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
 }
 .cards-purchase {
     display: flex;
@@ -66,4 +88,48 @@
     margin: 20px;
     border: 4px solid tan;
     object-fit: cover;
+    overflow: hidden;
+}
+.cards-purchase-images {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.cards-purchase-images.row {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-evenly;
+    padding-right: 0px;
+}
+.cards-purchase-images.scroll {
+    flex-direction: column;
+    overflow-y: auto;
+}
+.cards-purchase-img {
+  
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid tan;
+}
+.cards-purchase-info {
+    width: 260px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* inline name/price */
+    font-weight: 600;
+    gap:16px;
+    margin-right: 23px;;
+}
+.model-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.model-price {
+    color: tan;
 }
