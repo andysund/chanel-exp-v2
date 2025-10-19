@@ -1,29 +1,83 @@
 [
     {
         "id": "model-001",
-        "name": "Modèle 1",
+        "name": "Lookone",
         "pictures": [
-            "/photos/model-001/01.jpg",
-            "/photos/model-001/02.jpg",
-            "/photos/model-001/03.jpg"
+            "/assets/photos/Lookone/images1.webp",
+            "/assets/photos/Lookone/images2.webp"
         ],
+        "video": "/assets/photos/Lookone/video.webm",
         "price": 199.99
     },
     {
         "id": "model-002",
-        "name": "Modèle 2",
+        "name": "Looktwo",
         "pictures": [
-            "/photos/model-002/01.jpg",
-            "/photos/model-002/02.jpg"
+            "/assets/photos/Looktwo/images1.webp",
+            "/assets/photos/Looktwo/image2.webp"
         ],
+        "video": "/assets/photos/Looktwo/video.webm",
         "price": 249.0
     },
     {
         "id": "model-003",
-        "name": "Modèle 3",
+        "name": "Looktrois",
         "pictures": [
-            "/photos/model-003/01.jpg"
+            "/assets/photos/Looktrois/images2.webp",
+            "/assets/photos/Looktrois/images17.webp",
+            "/assets/photos/Looktrois/images.3.webp"
         ],
+        "video": "/assets/photos/Looktrois/video.webm",
         "price": 99.5
+    },
+    {
+        "id": "model-004",
+        "name": "Lookfour",
+        "pictures": [
+            "/assets/photos/Lookfour/images1.webp",
+            "/assets/photos/Lookfour/images2.webp"
+        ],
+        "video": "/assets/photos/Lookfour/video.webm",
+        "price": 299.0
+    },
+    {
+        "id": "model-005",
+        "name": "Lookfive",
+        "pictures": [
+            "/assets/photos/Lookfive/images1.webp",
+            "/assets/photos/Lookfive/images2.webp"
+        ],
+        "video": "/assets/photos/Lookfive/video.webm",
+        "price": 349.0
+    },
+    {
+        "id": "model-006",
+        "name": "Looksix",
+        "pictures": [
+            "/assets/photos/Looksix/images1.webp",
+            "/assets/photos/Looksix/images2.webp"
+        ],
+        "video": "/assets/photos/Looksix/video.webm",
+        "price": 399.0
+    },
+    {
+        "id": "model-007",
+        "name": "Looksept",
+        "pictures": [
+            "/assets/photos/Looksept/images1.webp",
+            "/assets/photos/Looksept/images2.webp"
+        ],
+        "video": "/assets/photos/Looksept/video.webm",
+        "price": 179.0
+    },
+    {
+        "id": "model-008",
+        "name": "Lookhuit",
+        "pictures": [
+            "/assets/photos/Lookhuit/images1.webp",
+            "/assets/photos/Lookhuit/images2.webp"
+        ],
+        "video": "/assets/photos/Lookhuit/video.webm",
+        "price": 229.0
     }
 ]
