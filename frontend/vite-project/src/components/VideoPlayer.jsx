@@ -69,12 +69,14 @@ function VideoPlayer() {
   if (!userInteracted) {
     return (
       <div className="start-container">
+        <div className="layout"></div>
         <button
           className="start"
           onClick={() => setUserInteracted(true)}
         >
           Start Video
         </button>
+        <div className="layout"></div>
       </div>
     );
   }

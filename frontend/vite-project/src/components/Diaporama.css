@@ -5,8 +5,8 @@ overflow: hidden;
 border-top: 2px solid tan;
 border-left: 2px solid tan;
 border-right: 2px solid tan;
-height: 941px;
-width: 2496px;
+
+
 }
 
 .diaporama-slide {
@@ -28,6 +28,7 @@ width: 2496px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .diaporama-title {
   position: absolute;

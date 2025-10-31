@@ -1,17 +1,57 @@
 .end-chanel {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
-    width:2496px;
-    height:100vh;
+    width: 100%;
+    max-width: var(--max-width);
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
+
 
 }
+.gabrielle-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.gabrielle-songs ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  
+}
+.gabrielle-songs li {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+.gabrielle-songs {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+    width: clamp(260px, 28vw, 400px);
+    height: clamp(360px, 60vh, 600px);
+    border: 2px solid tan;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+    overflow-y: auto;
+    margin: 30px;
+}
 .gabrielle {
-    width: 800px;
-    height: 1124px;
+    width: min(90vw, 800px);
+    aspect-ratio: 800 / 1124;
     border-radius: 25px;
     border: 2px solid tan;
     background-repeat: no-repeat;
@@ -19,8 +59,8 @@
     background-size: cover; 
 }
 .gabrielle-chanel-logo {
-    width: 102px;
-    height: 102px;
+    width: 88px;
+    height: 88px;
     margin-top: 30px;
     border-radius: 25px;
     background-repeat: no-repeat;
@@ -28,4 +68,14 @@
     background-size: contain; 
     border: 1px solid tan;
     border-radius: 100px;
+}
+
+@media (max-width: 1024px) {
+  .end-chanel { gap: 20px; }
+  .gabrielle-songs li { margin: 24px 0; }
+}
+
+@media (max-width: 768px) {
+  .end-chanel { flex-direction: column; padding-inline: 1rem; }
+  .gabrielle-songs { width: min(92vw, 400px); height: auto; max-height: 60vh; }
 }
